@@ -1,0 +1,15 @@
+h1 {
+	font-family: times new roman; font-style: italic;
+	background-color: cyan; opacity: 0.5;
+	}
+	
+.box-shadow
+ {width:200px;
+ -moz-box-shadow: 5px 5px 5px #999;
+ -webkit-box-shadow: 5px 5px 5px #999;
+ box-shadow: 5px 5px 5px #999;}
+			
+.circular-image
+	{
+	border-radius: 50%;
+}
