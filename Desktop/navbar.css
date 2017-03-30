@@ -1,0 +1,21 @@
+
+	
+
+li a {
+	display: inline;
+	text-align: center;
+	padding: 14px 16px
+	}
+li {
+	float: left;
+}
+
+h1, ul {
+	font-family: times new roman; font-style: italic;
+	background-color: cyan; opacity: 0.5;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+
