@@ -1,0 +1,42 @@
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+
+.gradient {
+  height: 900px;
+  background-color: red;
+  background-image:
+   linear-gradient(red, orange);
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 10%
+}
+
+h1, h2 {
+  font-size: 40px;
+  font-family: lucida sans unicode, sans-serif;
+}
+
+.nav {
+  font-family: lucida sans unicode, sans-serif;
+}
+
+p {
+  font-family: lucida sans unicode, sans-serif;
+}
