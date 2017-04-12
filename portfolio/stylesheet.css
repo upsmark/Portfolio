@@ -1,0 +1,110 @@
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.nav li {
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+
+}
+img {
+  display: block;
+  margin: auto;
+  width: 90%
+}
+
+div {
+  display:inline-block;
+}
+
+h1, h2, {
+  font-size: 40px;
+  font-family: lucida sans unicode, sans-serif;
+}
+
+.nav {
+  font-family: lucida sans unicode, sans-serif;
+}
+
+p {
+  font-family: lucida sans unicode, sans-serif;
+  font-size: 14px;
+}
+figcaption {
+  font-family: lucida sans unicode, sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+}
+
+body {
+  text-align: center;
+  /*background-color: red;
+  background-image: linear-gradient(red, orange);*/
+  background: linear-gradient(red, orange) no-repeat center center fixed;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: linear-gradient(pink, red) no-repeat center center fixed;
+  }
+}
+
+@media all and (min-width: 960px) {
+  body {
+    font-size: 35px;
+  }
+}
+@media all and (max-width: 960px) and (min-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+
+@media all and (max-width: 600px) {
+  body {
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 400px) {
+  figcaption {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 800px) {
+  figcaption {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  figcaption {
+    font-size: 5px;
+  }
+}
